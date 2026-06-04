@@ -1,0 +1,121 @@
+export const Colors = {
+  surface: '#faf9f6',
+  surfaceDim: '#dbdad7',
+  surfaceBright: '#faf9f6',
+  surfaceContainerLowest: '#ffffff',
+  surfaceContainerLow: '#f4f3f1',
+  surfaceContainer: '#efeeeb',
+  surfaceContainerHigh: '#e9e8e5',
+  surfaceContainerHighest: '#e3e2e0',
+  onSurface: '#1a1c1a',
+  onSurfaceVariant: '#554336',
+  inverseSurface: '#2f312f',
+  inverseOnSurface: '#f2f1ee',
+  outline: '#887364',
+  outlineVariant: '#dbc2b0',
+  surfaceTint: '#8f4e00',
+  primary: '#8f4e00',
+  onPrimary: '#ffffff',
+  primaryContainer: '#ff9933', // Saffron
+  onPrimaryContainer: '#693800',
+  inversePrimary: '#ffb77a',
+  secondary: '#735c00', // Gold
+  onSecondary: '#ffffff',
+  secondaryContainer: '#fed65b',
+  onSecondaryContainer: '#745c00',
+  tertiary: '#895121',
+  onTertiary: '#ffffff',
+  tertiaryContainer: '#e9a26b',
+  onTertiaryContainer: '#693708',
+  error: '#ba1a1a',
+  onError: '#ffffff',
+  errorContainer: '#ffdad6',
+  onErrorContainer: '#93000a',
+  background: '#faf9f6',
+  onBackground: '#1a1c1a',
+  primaryFixed: '#ffdcc2',
+  primaryFixedDim: '#ffb77a',
+  onPrimaryFixed: '#2e1500',
+  onPrimaryFixedVariant: '#6d3a00',
+  secondaryFixed: '#ffe088',
+  secondaryFixedDim: '#e9c349',
+  onSecondaryFixed: '#241a00',
+  onSecondaryFixedVariant: '#574500',
+  tertiaryFixed: '#ffdcc4',
+  tertiaryFixedDim: '#ffb780',
+  onTertiaryFixed: '#2f1400',
+  onTertiaryFixedVariant: '#6c3a0a',
+  surfaceVariant: '#e3e2e0',
+};
+
+export const Typography = {
+  headlineLg: {
+    fontSize: 32,
+    fontWeight: '700' as const,
+    lineHeight: 40,
+    letterSpacing: -0.64,
+  },
+  headlineLgMobile: {
+    fontSize: 28,
+    fontWeight: '700' as const,
+    lineHeight: 36,
+  },
+  headlineMd: {
+    fontSize: 24,
+    fontWeight: '600' as const,
+    lineHeight: 32,
+  },
+  bodyLg: {
+    fontSize: 20,
+    fontWeight: '400' as const,
+    lineHeight: 30,
+  },
+  bodyMd: {
+    fontSize: 18,
+    fontWeight: '400' as const,
+    lineHeight: 28,
+  },
+  labelLg: {
+    fontSize: 16,
+    fontWeight: '600' as const,
+    lineHeight: 24,
+    letterSpacing: 0.16,
+  },
+  labelSm: {
+    fontSize: 14,
+    fontWeight: '500' as const,
+    lineHeight: 20,
+  },
+};
+
+export const Shadows = {
+  umber: {
+    shadowColor: '#542b00',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.08,
+    shadowRadius: 12,
+    elevation: 4,
+  },
+  umberActive: {
+    shadowColor: '#542b00',
+    shadowOffset: { width: 0, height: 8 },
+    shadowOpacity: 0.12,
+    shadowRadius: 24,
+    elevation: 8,
+  },
+  saffronGlow: {
+    shadowColor: '#ff9933',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 4,
+  },
+};
+
+export const Sizes = {
+  base: 8,
+  marginMobile: 24,
+  gutterMobile: 16,
+  touchTargetMin: 48,
+  cardPadding: 20,
+};
